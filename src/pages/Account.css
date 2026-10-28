@@ -1,0 +1,148 @@
+
+.account-page {
+  min-height: 100vh;
+  padding: 35px 20px;
+  display: grid;
+  place-items: center;
+  background: #edf1e7;
+}
+
+.account-card {
+  width: 100%;
+  max-width: 440px;
+  padding: 38px;
+  border: 1px solid #efeee8;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 18px 50px #243d3010;
+}
+
+.account-logo {
+  display: block;
+  margin-bottom: 28px;
+  color: #284d3b;
+  font-family: "Manrope", sans-serif;
+  font-size: 27px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.account-logo span {
+  color: #bd744f;
+}
+
+.account-card h1 {
+  margin: 0 0 10px;
+  color: #26392e;
+  font-family: "Manrope", sans-serif;
+  font-size: 29px;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.account-description {
+  margin: 0 0 26px;
+  color: #7b837d;
+  font-size: 13px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.account-form {
+  display: grid;
+  gap: 16px;
+}
+
+.account-field {
+  display: grid;
+  gap: 7px;
+}
+
+.account-field label {
+  color: #39483e;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.account-field input {
+  width: 100%;
+  min-height: 45px;
+  padding: 12px;
+  border: 1px solid #e0e4dc;
+  border-radius: 9px;
+  outline: none;
+  background: #fff;
+  color: #26392e;
+  font-size: 13px;
+}
+
+.account-field input:focus {
+  border-color: #79917e;
+  box-shadow: 0 0 0 3px #284d3b12;
+}
+
+.account-submit {
+  min-height: 46px;
+  margin-top: 5px;
+  border: 0;
+  border-radius: 9px;
+  background: #284d3b;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.account-submit:hover {
+  background: #193a29;
+}
+
+.account-submit:disabled {
+  cursor: not-allowed;
+  opacity: 0.65;
+}
+
+.account-message {
+  padding: 11px 13px;
+  border-radius: 8px;
+  background: #fff0ed;
+  color: #9c3d2d;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.account-message.success {
+  background: #edf5e9;
+  color: #315f36;
+}
+
+.account-switch {
+  margin: 22px 0 0;
+  color: #68756c;
+  font-size: 12px;
+  text-align: center;
+}
+
+.account-switch a {
+  color: #bd744f;
+  font-weight: 700;
+}
+
+.account-back {
+  display: block;
+  margin-top: 20px;
+  color: #68756c;
+  font-size: 12px;
+  text-align: center;
+}
+
+.account-back:hover,
+.account-switch a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .account-card {
+    padding: 27px 22px;
+  }
+}
